@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Lacquer&family=Open+Sans:ital,wght@1,700&family=Oswald:wght@500;600&family=PT+Serif:wght@700&family=Roboto&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container h1{
+    font-family: 'Lacquer', cursive;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    font-size: 12px;
+    width: 50%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid rgb(173, 133, 133);
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 4px 30px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: wheat;
+    background-color: rgb(250, 11, 11);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.container{
+    min-height: 72vh;
+    margin: 43px 0;
+}

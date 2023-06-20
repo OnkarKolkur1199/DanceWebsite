@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Lacquer&family=Open+Sans:ital,wght@1,700&family=Oswald:wght@500;600&family=PT+Serif:wght@700&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:ital,wght@1,600&family=Lacquer&family=Open+Sans:ital,wght@1,700&family=Oswald:wght@500;600&family=PT+Serif:wght@700&family=Roboto&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: #d43b3b;
+    padding: 13px 11px;
+    font-family: 'Lacquer', cursive;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 11px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 250px;
+    padding-bottom: 65px;
+}
+
+#introSection div.small{
+    font-size: 30px;
+    padding: 6px;
+}
+
+#sponsersSection{
+    height: 190px;
+    background-color: rgb(240, 221, 221);
+}
+
+#sponsersSection h2 {
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sponsors{
+    height: 150px;
+    max-width: 650px;
+    margin: 8px auto;
+}
+
+.spImage{
+    height: 60%;
+    margin: 20px;
+}
+
+#missionSection{
+    height: 280px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2 {
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 18px 15px;
+    height: 200px;
+    font-family: 'Oswald', sans-serif;
+    /* background-color: #ffdede; */
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    margin-top: 15px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 120px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 15px;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

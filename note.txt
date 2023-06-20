@@ -1,0 +1,27 @@
+In terminal - 
+npm init
+npm install express
+npm install pug
+
+(Install the mongodb from google- create c/data/db - go to c/program files/mongoDB/server/6.0/bin and copy the path - then go to myPC/properties/environment/path/new/add/ok)
+
+In pc power shell - mongod
+
+In terminal-
+mongod
+npm install mongoose
+use mongosh instead mongo
+
+in terminal-
+npm install body-parser (For using post from express)
+
+for getting the data from user
+in terminal - 
+mongosh
+nodemon app.js
+(Fill the form and submit)
+
+In terminal
+Use contactDance (In mongosh )
+show collections
+db.contacts.find()  (In contacts collections)
